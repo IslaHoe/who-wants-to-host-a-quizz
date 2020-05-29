@@ -1,0 +1,71 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  
+}
+
+
+
+.zoom {
+  width: 200px
+}
+
+.buttons {
+    display: flex; /* or inline-flex */
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn {
+  float: right;
+}
+
+.enter-img {
+  width: 200px;
+  margin-top: 10%;
+}
+.leaderboard-img {
+  width: 200px;
+}
+
+
+.cards {
+  display: flex;
+  text-align: center;
+  min-width: 1224px;
+  max-width: 1536px;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.cards h2 h3 {
+  font-family: 'FF 400'!important; 
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card1 {
+  background-size: cover;
+  background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card2 {
+  background-size: cover;
+  background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card3 {
+  background-size: cover;
+  background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
