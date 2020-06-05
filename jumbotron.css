@@ -4,15 +4,32 @@ body {
 }
 
 .navbar {
-  min-height: 0px !important;
-  margin-bottom: 0px !important;
+  min-height: 0px;
+  margin-bottom: 0px;
 }
 
 .nav {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto;
+  margin-right: auto;
   width: 670px;
 }
+
+
+.navbar {
+  background-color: #E8DDB5;
+
+}
+.nav-link {
+  color: black;
+  font-size: larger ;
+}
+
+
+.nav-link {
+  color: black;
+  font-size: larger;
+}
+
 .zoom {
   width: 200px
 }

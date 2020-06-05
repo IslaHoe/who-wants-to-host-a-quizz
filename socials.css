@@ -1,0 +1,127 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    background-color: rgb(187, 199, 238) !important;
+  }
+
+.navbar {
+    background-color: rgb(187, 199, 238) !important;
+
+}
+.nav-link {
+    color: black !important;
+    font-size: larger !important;
+}
+
+
+.nav-link {
+    color: black !important;
+    font-size: larger !important;
+}
+
+.dropdown-toggle{
+
+    color: rgb(80, 80, 80) !important;
+    font-size: larger !important;
+
+}
+  .container {
+      font-size: larger;
+  }
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:  rgb(187, 199, 238) !important;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color:  rgb(146, 150, 163) !important;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgb(177, 186, 216) !important;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 50px 25px;
+    border: 1px solid #EFD2CB;
+    border-top: none;
+    width: 1024px !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(208, 214, 235) !important;
+  }
+
+  .button {
+      float: right !important;
+  }
+
+  h3 {
+      text-align: center;
+      font-weight: 600;
+  }
+
+
+  /*image hover*/
+  .hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.hover-image {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/* Change width and height to scale images */
+    width: 90vw;
+    height: 90vh;
+}
+
+.hover-image img {
+    max-width: 25% !important;
+    max-height: 25% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+    opacity: .9https://imagevars.gulfnews.com/2019/05/17/RDS_190517-Grumpy-Cat-1-1558097593492_16ac5da8494_large.jpg;
+}
