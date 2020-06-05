@@ -8,7 +8,7 @@
     <meta name="generator" content="Jekyll v4.0.1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <title>Nerd Quizz</title>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -17,7 +17,8 @@
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
-
+<link rel="stylesheet" href="Leaderboard-styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -47,66 +48,60 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Past Quizes</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSe-0HJ7N9aju-RRggwWYlIzZgMjiSaBKf-YY8-cB2KC8NnZmw/viewform">Intenet</a>
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfe4P5ahtqsxNjgCpmN6q9H8pynqmEF0ubAFpG01eihmhXSvQ/viewform">Sport</a>
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSf20Fpv2VA3FZpR4f5phwWnbpPdkV-hoxuipNHgnuIDVpotzQ">Harry Potter</a>
-          <a target="_blank" class="dropdown-item" href=" https://docs.google.com/forms/d/1ttM8IknXkLO7D6YHDVS4-BOffHzWhloPnP3TrOMBcUg/viewform?fbclid=IwAR3Nqei0Q3UF-6vQcjR6NJR1iYqCRXdkJmwCLcDFQovfRma-Fv_hd2lQAmQ&edit_requested=true">Movies</a>
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc9TjLaSZSxocL_Sk1IwDUCOAceyhQC4U0xnr5KsbGDfiOcGA/viewform?fbclid=IwAR1MgDMH1e8U9doNPGvMfq8ysGt5FOfZX5C8UhsCTs-bvf2tb_wSHzjmAOw">Untheamed</a>
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSda7-9R_AkTQZ4VaZxEAHAOXpe3Gz3-tfI5c-7WKd0Tt2_vDw/viewform?fbclid=IwAR3MNab5ZMM1j0FeAZkGSklIGRGF5zW2iZmARO_2Y3sf4pI8UCv_BSQWzuo">Randoms</a>
-          <a target="_blank" class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLScl5bTZntGzHQQIHdEt0WJxya2DJnVAKfGa5BF5leHwidcwuA/viewform">TV</a>
+          <a class="dropdown-item" href="#">Intenet</a>
+          <a class="dropdown-item" href="#">Sport</a>
+          <a class="dropdown-item" href="#">Harry Potter</a>
+          <a class="dropdown-item" href="#">Movies</a>
+          <a class="dropdown-item" href="#">Untheamed</a>
+          <a class="dropdown-item" href="#">Randoms</a>
+          <a class="dropdown-item" href="#">TV</a>
         </div>
       </li>
     </ul>
-    
+   
   </div>
 </nav>
 
 
 <main role="main" >
+  <div class="leaderboard-header">
+
+  </div>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">Who Wants to Host a Quizz</h1>
-      <p>Welcome to nerd quiz time</p>
+      <h1 class="display-3">Leaderboard</h1>
+      <p>Pssssttt Shannon is probably winning</p>
     </div>
   </div>
 
- 
 
-            
-  <div class="cards">
-  
-    <div class="card2">
-      <p>
-        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdKL3_ECnFeO1VavUm-Go3I5vkYrw57AEtHq3GkGpDwVLw_8A/viewform">
-        <img  class="button-img" alt="" src="images/enter-img.png">
-        </a>
-      </p>
-        </div>  
-      <div class="card1">
-        <p>
-          <a href="leaderboard.html">
-          <img  class="button-img" alt="" src="images/leaderboard-img.png">
-          </a>
-        </p>
-          </div>  
-
-      <div class="card3">
-        <p>
-          <a target="_blank" href="https://zendesk.zoom.us/j/9712923786?pwd=L3doYjB4dXV0QUcrSVY1SzVNZ3hxUT09">
-          <img  class="button-img" alt="" src="images/this-chat.png">
-          </a>
-        </p>
-          </div>  
-
-  
-  </div>
+  <ul class="nav nav-tabs rounds">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Round 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Round 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Round 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Round 4</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Round 5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Round 6</a>
+    </li>
+  </ul>
 
 
 </main>
@@ -116,5 +111,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script></body>
 </html>
+
+
 
 

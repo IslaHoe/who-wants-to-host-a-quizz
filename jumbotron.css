@@ -8,6 +8,11 @@ body {
   margin-bottom: 0px !important;
 }
 
+.nav {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 670px;
+}
 .zoom {
   width: 200px
 }
@@ -122,3 +127,4 @@ body {
     border-left: 1px solid #294f75 !important;
     color: blueviolet;
   }
+
