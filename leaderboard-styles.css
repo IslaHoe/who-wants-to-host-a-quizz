@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  font-family: 'Space Mono', monospace;
   }
   
   .theme {
@@ -20,4 +20,25 @@ body {
     width:24px;
     text-align: center;
     padding: 4px;
+  }
+
+  .jumbotron{
+    background-color: rgb(195, 214, 189) !important; 
+    text-align: center;
+  }
+
+  .table {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    width: 512px !important;
+    border: blueviolet !important;
+    font-size: x-large;
+  }
+
+  .table td .table th {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    vertical-align: top;
+    border-left: 1px solid #294f75 !important;
+    color: blueviolet;
   }
